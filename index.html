@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N&K Gutter - Professional Gutter Solutions</title>
+    <link rel="icon" href="icono.jpg" type="image/jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+
+
+   <script type="module">
+    import gsap from 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js';
+    import ScrollTrigger from 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js';
+    import ScrollToPlugin from 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js';
+
+    gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+
+    import 'script.js';
+</script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo-link"><img src="icono.jpg" alt="NK & Gutter Logo" class="logo"></a>
+            <div class="nav-links">
+                <a href="services.html">Services</a>
+                <a href="projects.html">Projects</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <a href="" class="phone-button cta-button-nav">Call Now: (561) 268-6290</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>
+                <span>N&K  Seamless Gutter LLC</span><br>
+                <span>Where Protection Meets Elegance.</span>
+            </h1>
+            <p class="hero-subtext">We use premium materials and cutting-edge technology to ensure efficient, durable, and aesthetically pleasing gutters for your property.</p>
+            <button class="cta-button hero-cta" onclick="openQuoteForm()">Get Your FREE Estimate Today</button>
+        </div>
+        <div class="quote-form-container" id="quoteFormSection">
+            <div class="quote-form" id="quoteForm">
+    <h3>Schedule Your Free Quote</h3>
+    <div id="formMessage" class="form-message" style="display: none;"></div>
+    <form id="estimateForm">
+        <input type="text" name="fullName" placeholder="Full Name" required>
+        <input type="text" name="address" placeholder="Address" required>
+        <input type="tel" name="phone_number" placeholder="Phone Number" required>
+        <button type="submit" class="cta-button form-submit-button">Submit Request</button>
+    </form>
+</div>
+
+        </div>
+    </section>
+
+    <!-- Rest of your HTML remains unchanged -->
+    <section id="commitment-excellence" class="content-section">
+        <h2>Our Commitment to Excellence</h2>
+        <p class="section-subtext">Experience the N&K Gutter difference. We are dedicated to providing top-tier service and lasting solutions for your peace of mind.</p>
+        <div class="info-grid">
+            <div class="info-card">
+                <img src="icon_craftsmanship_tools.png" alt="Precision craftsmanship icon" class="modern-icon">
+                <h3>Precision Installation</h3>
+                <p>Every gutter system is meticulously installed for optimal performance and longevity, ensuring perfect water flow and protection.</p>
+            </div>
+            <div class="info-card">
+                <img src="icon_shield_protection.png" alt="Durable materials shield icon" class="modern-icon">
+                <h3>Durable Materials</h3>
+                <p>We use only high-grade materials that withstand the elements, resist corrosion, and protect your investment for years to come.</p>
+            </div>
+            <div class="info-card">
+                <img src="icon_craftsmanship_tools.png" alt="Skilled craftsmanship icon" class="modern-icon">
+                <h3>Skilled Craftsmanship</h3>
+                <p>Our experienced team combines expert technique with close attention to detail, delivering reliable results you can count on.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="customer-focused" class="content-section alt-bg">
+        <h2>Satisfaction is Our Top Priority!</h2>
+        <p class="section-subtext">At N&K Gutter, we’re committed to building lasting relationships through trust, transparency, and outstanding customer service—from the initial consultation to project completion.</p>
+        <div class="customer-focus-points">
+            <div class="focus-point">
+                <img src="icon_customer_service.png" alt="Clear communication icon" class="modern-icon">
+                <h4>Clear Communication</h4>
+                <p>Transparency is at the heart of what we do. You’ll always know where things stand with timely updates and clear, honest communication.</p>
+            </div>
+            <div class="focus-point">
+                <img src="icon_customer_service.png" alt="Personalized solutions icon" class="modern-icon">
+                <h4>Personalized Solutions</h4>
+                <p>We take the time to understand your unique needs and customize our services to deliver the most effective gutter solution for your property.</p>
+            </div>
+            <div class="focus-point">
+                <img src="icon_customer_service.png" alt="Reliable support icon" class="modern-icon">
+                <h4>Reliable Support</h4>
+                <p>Our commitment doesn’t end with installation. From timely communication to ongoing support, we’re here to ensure your satisfaction every step of the way.</p>
+            </div>
+        </div>
+        <div class="cta-centered-container">
+            <a href="index.html#quoteFormSection" class="cta-button large-button">Experience Our Dedicated Service - Get a Quote!</a>
+        </div>
+    </section>
+
+    <section id="gallery-showcase" class="content-section">
+        <h2>Check Out Our Quality Work</h2>
+        <p class="section-subtext">Our recent projects showcase the attention to detail, durability, and visual appeal that define every N&K Gutter installation.</p>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="trabajo1.jpg" alt="Mauve house with new gutters">
+                <div class="gallery-item-caption">Pristine Installation</div>
+            </div>
+            <div class="gallery-item">
+                <img src="trabajo3.jpg" alt="Patio area with house and gutters">
+                <div class="gallery-item-caption">Enhanced Curb Appeal</div>
+            </div>
+            <div class="gallery-item">
+                <img src="trabajo4.jpg" alt="House 5936 with new gutters">
+                <div class="gallery-item-caption">Seamless Integration</div>
+            </div>
+            <div class="gallery-item">
+                <img src="trabajo6.jpg" alt="House patio under construction with new gutters">
+                <div class="gallery-item-caption">Durable & Effective</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="easy-steps" class="content-section alt-bg">
+        <h2>Getting Your Perfect Gutters Installed Is Easy</h2>
+        <p class="section-subtext">Our streamlined process ensures a hassle-free experience, delivering exceptional results with minimal disruption to your day.</p>
+        <div class="steps-grid">
+            <div class="step-card">
+                <span class="step-number">1</span>
+                <img src="icon_scheduling_estimate.png" alt="Consultation and estimate icon" class="modern-icon">
+                <h3>Free Consultation & Estimate</h3>
+                <p>We’ll visit your property, listen to your needs, and provide a clear, no-obligation quote.</p>
+            </div>
+            <div class="step-card">
+                <span class="step-number">2</span>
+                <img src="icon_craftsmanship_tools.png" alt="Custom fabrication icon" class="modern-icon">
+                <h3>Custom Fabrication & Scheduling</h3>
+                <p>Once you approve the estimate, we’ll schedule your installation and design a custom gutter system tailored to your property.</p>
+            </div>
+            <div class="step-card">
+                <span class="step-number">3</span>
+                <img src="icon_home_installation.png" alt="Professional home installation icon" class="modern-icon">
+                <h3>Precision Installation</h3>
+                <p>Our skilled team completes the installation with accuracy and care—ensuring quality, durability, and a clean finish.</p>
+            </div>
+            <div class="step-card">
+                <span class="step-number">4</span>
+                <img src="icon_inspection_satisfaction.png" alt="Inspection and satisfaction icon" class="modern-icon">
+                <h3>Final Inspection</h3>
+                <p>We thoroughly inspect every detail to ensure your new gutters meet our high standards—and your full satisfaction.</p>
+            </div>
+            <div class="step-card">
+                <span class="step-number">5</span>
+                <img src="icon_quality_excellence.png" alt="Inspection and satisfaction icon" class="modern-icon">
+                <h3>Reliable Support</h3>
+                <p>Even after the job is complete, we’re here to help—ready to answer your questions or provide ongoing support.</p>
+            </div>
+        </div>
+        <div class="cta-centered-container">
+            <a href="services.html" class="cta-button secondary">Explore Our Services</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section footer-logo-area">
+                <a href="index.html"><img src="icono.png" alt="NK & Gutter Logo" class="footer-logo"></a>
+                <p>N&K Gutter</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p>Phone: <a href="">(561) 268-6290</a></p>
+                <p>Email: <a href="mailto:nykseamlessgutter@gmail.com">nykseamlessgutter@gmail.com</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="projects.html">Projects</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 N&K seamless gutter LLC</p>
+        </div>
+    </footer>
+
+<!-- EmailJS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+  (function() {
+    emailjs.init("NK9TTvORN_0t_ZgmW"); // tu Public Key
+  })();
+
+  document.getElementById("estimateForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    emailjs.sendForm("nyk_service", "nyk_template", this)
+      .then(function(response) {
+        alert("Application sent successfully!");
+        console.log("SUCCESS!", response.status, response.text);
+      }, function(error) {
+        alert("There was an error. Please try again.");
+        console.log("FAILED...", error);
+      });
+
+    // Limpiar el formulario si quieres
+    this.reset();
+  });
+</script>
+
+
+</body>
+</html>
